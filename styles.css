@@ -1,0 +1,79 @@
+/* Resetting default margin and padding */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Adding a fallback font for better cross-browser compatibility */
+}
+
+/* Improving readability by setting line-height */
+body {
+    line-height: 1.6;
+    background-color: #f2f2f2; /* Changing the background color to a light gray */
+}
+
+/* Adding some space between the container and the top/bottom of the page */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+    background-color: #fff; /* Adding a white background to the container */
+    border-radius: 10px; /* Increasing border radius for a softer look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Enhancing the shadow for depth */
+}
+
+/* Making headings more appealing */
+h1 {
+    margin-bottom: 30px;
+    font-size: 28px; /* Increasing font size for headings */
+    color: #333; /* Darkening the color for better contrast */
+}
+
+/* Improving input box style */
+input[type="text"] {
+    width: calc(100% - 24px); /* Adjusting width for padding */
+    max-width: 400px; /* Preventing input from extending too much */
+    padding: 14px; /* Increasing padding for better spacing */
+    font-size: 18px;
+    border: 2px solid #ccc; /* Increasing border width for clarity */
+    border-radius: 8px; /* Increasing border radius for a softer look */
+    margin-bottom: 20px; /* Adding more space below the input */
+    transition: border-color 0.3s ease; /* Adding transition effect for border color */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff; /* Changing border color on focus for better feedback */
+}
+
+/* Enhancing button appearance */
+button {
+    padding: 14px 28px; /* Increasing padding for better spacing */
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #007bff; /* Setting a primary color for the button */
+    color: #fff; /* Making the text white for better contrast */
+    border: none; /* Removing default button border */
+    border-radius: 8px; /* Increasing border radius for a softer look */
+    transition: background-color 0.3s ease; /* Adding a smooth transition effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darkening the button color on hover */
+}
+
+/* Adding some style to list items */
+ul {
+    list-style-type: none; /* Removing default list style */
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 20px; /* Adding more space between list items */
+    font-size: 16px;
+    color: #666; /* Dimming the text color */
+}
+
+/* Adding a subtle shadow to the container for depth */
+.container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Enhancing the shadow for depth */
+}
